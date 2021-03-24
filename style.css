@@ -32,12 +32,16 @@ html {
     margin: 0;
     padding: 0px;
     border-bottom: 1px solid black;
+    flex-wrap:wrap;
   }
   
   .tab {
+    flex-grow: 1;
     cursor: pointer;
     padding: 20px;
     
+    width: 100%;
+    border: 1px solid black;
   }
   
   .tab.active {
